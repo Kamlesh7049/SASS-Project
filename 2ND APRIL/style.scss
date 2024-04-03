@@ -1,0 +1,27 @@
+
+@import "colors";
+
+.main{
+    &-div{
+        border:3px solid blue;
+    }
+    &-secondDiv{
+        border: 4px dashed red;
+        padding: 10px;
+    }
+    &-thirdDiv{
+        border: 5px dotted green;
+    }
+}
+.btn-main{
+    width: 200px;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 20px;
+    border: 3px solid #333;
+}
+.btn-other{
+    @extend .btn-main;
+    color: yellow;
+    background-color: black;
+}

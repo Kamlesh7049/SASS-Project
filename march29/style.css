@@ -1,0 +1,35 @@
+.item {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+h1 {
+  font-size: 55px;
+  background-color: red;
+  color: white;
+  letter-spacing: 2rem;
+}
+
+p {
+  font-size: 30px;
+  background-color: green;
+  color: white;
+  letter-spacing: 1.2rem;
+}/*# sourceMappingURL=style.css.map */

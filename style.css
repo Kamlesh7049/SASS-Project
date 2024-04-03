@@ -1,0 +1,13 @@
+div {
+  background-color: coral;
+  color: white;
+  font-size: 24px;
+}
+div > h1 {
+  color: red;
+  background-color: aqua;
+}
+div > p {
+  color: yellow;
+  background-color: pink;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,34 @@
+@mixin flexproperty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+@mixin text_style($size, $bgcolor,$space){
+    font-size: $size;
+    background-color: $bgcolor;
+    color: white;
+    letter-spacing:$space;
+}
+
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+
+}
+.container {
+    @include flexproperty;
+
+}
+
+.grid {
+    @include flexproperty;
+}
+h1 {
+    @include text_style(55px,red,2rem);
+}
+p{
+    @include text_style(30px,green,1.2rem);
+}

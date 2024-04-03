@@ -1,0 +1,27 @@
+// $dark_color:red;
+// $primary_color:blue;
+// $large:60px;
+// h1{
+//     background-color: $dark_color;
+//     color: $primary_color;
+//     font-size: $large;
+// }
+// .mypara{
+//     font-size: $large;
+//     background-color: $dark_color;
+//     color: $primary_color;
+// }
+div{
+    background-color: coral;
+    color: white;
+    font-size: 24px;
+   >h1{
+        color: red;
+        background-color: aqua;
+    }
+    >p{
+        color: yellow;
+        background-color: pink;
+    }
+    
+}
